@@ -24,18 +24,19 @@ a{
 
 .navbar{
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-end;
+
     align-items:center;
 
-    padding:1rem 1.25rem;
+    padding:1.2rem 1.5rem;
 
-    background:rgba(255,255,255,.95);
+    background:#111827;
 
     position:sticky;
     top:0;
     z-index:1000;
 
-    border-bottom:1px solid #ececec;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
 }
 
 .logo img{
