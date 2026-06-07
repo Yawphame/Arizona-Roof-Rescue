@@ -82,12 +82,14 @@ a{
 .hero{
     background:
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("hero-bg.JPG");
+    url("./hero-bg.JPG");
 
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    padding:4rem 1.25rem;
+    min-height: 700px;
+    padding: 4rem 1.25rem;
 }
 
 .location{
