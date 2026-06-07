@@ -27,17 +27,17 @@ a{
     justify-content:flex-end;
     align-items:center;
 
-    padding:1rem 1.5rem;
+    padding:0 1.5rem;
 
-    background:#111827;
-    
-height:80px;
-    
+    background:#0f172a;
+
+    height:70px;
+
     position:sticky;
     top:0;
     z-index:1000;
 
-    box-shadow:0 5px 20px rgba(0,0,0,.15);
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
 }
 
 .logo img{
@@ -46,18 +46,16 @@ height:80px;
 
 .menu-btn{
     background:#c62828;
-
     color:white;
 
     border:none;
 
-    width:55px;
-    height:55px;
+    width:60px;
+    height:60px;
 
     border-radius:12px;
 
     font-size:1.8rem;
-
     cursor:pointer;
 }
 .nav-links{
