@@ -25,10 +25,9 @@ a{
 .navbar{
     display:flex;
     justify-content:flex-end;
-
     align-items:center;
 
-    padding:1.2rem 1.5rem;
+    padding:1rem 1.5rem;
 
     background:#111827;
 
@@ -45,6 +44,7 @@ a{
 
 .menu-btn{
     background:#c62828;
+
     color:white;
 
     border:none;
@@ -58,7 +58,6 @@ a{
 
     cursor:pointer;
 }
-
 .nav-links{
     display:none;
 }
