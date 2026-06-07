@@ -334,11 +334,18 @@ section{
 / CTA /
 
 .final-cta{
-    background:#111827;
+    background:
+    linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url("cta-bg .JPG");
+
+    background-size:cover;
+    background-position:center;
+
     color:white;
     text-align:center;
-}
 
+    padding:4rem 1.5rem;
+}
 .final-cta p{
     color:#d1d5db;
 }
