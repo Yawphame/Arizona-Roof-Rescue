@@ -44,9 +44,18 @@ a{
 }
 
 .menu-btn{
-    background:none;
+    background:#c62828;
+    color:white;
+
     border:none;
-    font-size:2rem;
+
+    width:55px;
+    height:55px;
+
+    border-radius:12px;
+
+    font-size:1.8rem;
+
     cursor:pointer;
 }
 
